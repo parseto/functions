@@ -12,6 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "typedoc": "^0.24.8",
     "typescript": "^4.8.3"
+  },
+  "compilerOptions": {
+    "normalTypeScriptOptions": "here"
+  },
+  "typedocOptions": {
+      "entryPoints": ["lib/index.ts"],
+      "out": "docs"
   }
 }

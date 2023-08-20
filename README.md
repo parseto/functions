@@ -1,7 +1,6 @@
 ### install
+npm i
 
 
-### functions
-```
-log,logger,sleep
-```
+### docs
+typedoc
